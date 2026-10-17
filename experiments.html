@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <title>Tristin Xie Experiments</title>
   <style>
     header,
@@ -13,7 +12,7 @@
       border: 2px solid #3F3F3F;
     }
   </style>
-  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const ctx = document.querySelector("canvas").getContext("2d");
@@ -37,7 +36,7 @@
     <input type="checkbox" id="nav-toggle">
     <nav class="menu">
       <ul>
-        <li><a href="/"><img src=/assets/favicon.ico /></a></li>
+        <li><a href="/"><img src=/assets/favicon.ico alt="Tristin Xie Logo"></a></li>
         <li><a href="/blog.html">Blog</a></li>
         <li><a href="/assets/TristinXieResume.pdf">Resume</a></li>
         <li><a href="/profile.html">About</a></li>
@@ -53,6 +52,8 @@
   </header>
   <br>
   <article>
+    <h1>My Experiments Page</h1>
+    <h2>Volume Warning for the following experiments!</h2>
     <audio controls>
       <source src="/assets/metal_pipe.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
@@ -61,6 +62,7 @@
       <source src="/assets/metal_pipe.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+    <h2>A canvas with sun and mountain drawing</h2>
     <canvas width="120" height="120">
       Yellow circle with green triangle in a cyan backdrop. Simple representation of sun and mountain.
     </canvas>
